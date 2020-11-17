@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+img {
+    width: 15rem;
+    height: 14rem;
+}
+
+body{
+    background-image: url(../images/luffy_dodge.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    
+}
+.single {
+
+    padding:10px;
+    border: 5px solid white;
+    text-align: center;
+}
+
+h1 {
+    color:indianred;
+}

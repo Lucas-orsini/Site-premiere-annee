@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banniere {
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+
+form  label{
+    
+    font-size:1.7rem; 
+   
+} 
+
+h2 {
+    color:white;
+    font-size:5rem;
+}
+input {
+    padding : 12px;
+    opacity: 80%;
+    border: none;
+}
+p {
+    color:red;   
+}
+
+a {
+    color: #7b4545;
+    text-decoration: none;
+    font-size:1.2rem;
+}
+
+

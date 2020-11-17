@@ -1,0 +1,334 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 1.4em;
+    font-weight: normal;
+    color: #fff;
+    font-size: 18px;
+    filter: drop-shadow(7px 2px 4px #000000);
+}
+
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 200;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(109, 145, 145, 0.87);
+
+
+}
+
+.fermeBouton {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+
+}
+
+.burgerIcone {
+    position: fixed;
+    top: 30px;
+    right: 36px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.burgerLigne {
+    width: 90px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.navMenu {
+    flex-flow: column wrap;
+
+}
+
+.navMenu li {
+    list-style: none;
+}
+
+.navMenu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 55px;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e09319;
+    transition: 0.2 ease all;
+
+}
+
+.navMenu li:last-child a {
+    border-bottom: none;
+}
+
+.navMenu li:hover a {
+    background-color: #ff6500;
+}
+
+#banniere {
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+
+#banniere h2 {
+    color: #ffffff;
+    font-size: 88px;
+    font-weight: 600;
+    margin: 0;
+    opacity: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 260px;
+
+}
+
+#banniere .enSavoirPlus {
+    background-color: #448888;
+    padding: 17px 65px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    text-transform: uppercase;
+    opacity: 0;
+    border-radius: 5px;
+
+}
+
+section #description {
+    display: none;
+    position: relative;
+    top: 70px;
+    margin: 0;
+    padding: 17px 65px;
+}
+
+#espace {
+    top: 70px;
+    margin: 0;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+#espace h2 {
+    color: #ffffff;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+    opacity: 0;
+}
+
+
+
+
+
+#troisiemeDiv {
+    display: none;
+    top: 70px;
+    margin: 0;
+    background-image: url(../images/testequipage.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+#troisiemeDiv h2 {
+    color: #ffffff;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+    opacity: 0;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+footer {
+    top: 70px;
+    background-color: #3b3b5a;
+    background-size: cover;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+
+}
+
+
+.logo2 {
+    width: 45px;
+    max-width: 45px;
+    height: auto;
+}
+
+
+.numbertext img {
+    width: 100%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.taille img {
+    margin-left: 10%;
+    width: 75%;
+}
+
+
+
+

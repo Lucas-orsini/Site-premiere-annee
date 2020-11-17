@@ -1,0 +1,250 @@
+html {
+    font-size : 62.5%;
+}
+
+body {
+    margin: 0;
+    padding : 0;
+    
+}
+
+header {
+    background-image: url(../images/giant-pistol.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color:#fff;
+    font-family: lobster, sans-serif;
+    font-size: 13rem;
+    margin: 0;
+    position: relative;
+    top:25rem;
+    letter-spacing:5px;
+    width: 100%;
+}
+
+/* Section */
+
+.img1 {
+    background-image: url(../images/luffy-haki-observation.gif);
+    height: 108rem;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.box {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 82rem;
+    height: 45rem;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-weight:100;
+    padding:3.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'lato', sans-serif;
+    line-height: 1.25rem;
+    
+}
+
+.date {
+    font-size: 2rem;
+    opacity:0.7;
+}
+
+.text {
+    font-size:1.8rem;
+    letter-spacing: 0.15rem;
+    margin: 0 3rem;
+    line-height: 2.5rem;
+}
+
+.learn {
+    background : transparent;
+    margin-top: 5rem;
+    color:#fff;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding:2.5rem;
+    font-weight: 500;
+    width: 25rem;
+    transition: all 0.4s ease-in;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    
+    
+}
+
+.learn:hover {
+    background: rgba(255,255,255,0.9);
+    color: black;
+}
+
+/*Deuxieme section*/
+
+.img2 {
+    background-image: url(../images/haki-armement.gif);
+    height: 108rem;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+
+/*Troisieme section*/
+
+.img3 {
+    background-image: url(../images/baronman.gif);
+    height: 108rem;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+/*aniamtion*/
+
+.box1 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+.box3 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+.box2 {
+    opacity: 0;
+    transition: all 0.4s linear;
+}
+
+.fade-in {
+    opacity:1
+}
+
+footer {
+    top: 70px;
+    background-color: #3b3b5a;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      color:  #fff;
+
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+
+}
+footer p {
+    color:  #fff;
+}
+
+.logo2 {
+    width: 45px;
+    max-width: 45px;
+    height: auto;
+}
+
+footer .text {
+    color: #fff;
+}
+
+/*barre de navigation*/
+
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 200;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(109, 145, 145, 0.87);
+
+
+}
+
+.fermeBouton {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+
+}
+
+.burgerIcone {
+    position: fixed;
+    top: 30px;
+    right: 36px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.burgerLigne {
+    width: 90px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.navMenu {
+    flex-flow: column wrap;
+
+}
+
+.navMenu li {
+    list-style: none;
+}
+
+.navMenu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 55px;
+    display: inline-block;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e09319;
+    transition: 0.2 ease all;
+
+}
+
+.navMenu li:last-child a {
+    border-bottom: none;
+}
+
+.navMenu li:hover a {
+    background-color: #ff6500;
+}
+
+
+
+
+
+

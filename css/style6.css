@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#banniere {
+    background-image: url(../images/zorostyle.gif);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+
+h2 {
+    color:white;
+    font-size:5rem;
+}
+
+a {
+  
+    color: #7b4545;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.profil {
+    color:white;   
+    font-size: 2rem;
+}

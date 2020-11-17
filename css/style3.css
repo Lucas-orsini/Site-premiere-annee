@@ -1,0 +1,161 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+
+
+h2 {
+    color : #fff;
+}
+
+
+label {
+    color: #fff;
+}
+
+div {
+    background-color: #083548;
+    height: 100vh;
+}
+
+.formation{
+	margin-left: 600px;
+}
+
+.exp {
+	margin-left: 1200px;
+}
+p {
+	color:white;
+}
+.textF {
+	position : absolute;
+	margin-left: 500px;
+	margin-top :50px;
+
+}
+.textE {
+	position : absolute;
+	margin-left: 1100px;
+	margin-top :50px;
+
+}
+#formulaire {
+	height: 900px;
+}
+#formulaire h2 {
+    text-align: center;
+}
+
+#formulaire hr {
+	margin: 0 auto;
+	width: 9%;
+}
+form{
+	position : absolute;
+	
+	margin-top: 30px;
+}
+form input {
+	height: 50px;
+	border : 1px dashed black;
+	border-radius: 10px;
+	text-align: center;
+	width: 500px;
+}
+#msg{
+	width: 500px;
+	height : 150px;
+	margin-left: 12px;
+}
+#tel {
+	margin-left: 2px;
+}
+#email {
+	margin-left: 30px;
+}
+#nom {
+	margin-left: 35px;
+}
+label {
+	font-size: 15px;
+	margin-right : 30px;
+}
+
+footer {
+    top: 70px;
+    background-color: #3b3b5a;
+    background-size: cover;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+
+}
+
+
+.logo2 {
+    width: 45px;
+    max-width: 45px;
+    height: auto;
+}
+#button{
+  position : relative;
+  background-color : #1FA987;
+  font-size : 28px;
+  color : #FFFFFF;
+  padding : 20px;
+  width : 180px; 
+  text-align : center;
+  transition-duration : 0.4s;
+  overflow: hidden;
+  cursor : pointer;
+    
+
+}
+#button:after {
+  content : "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important; 
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.button {
+
+margin-left: 50px;
+}
+.sub{
+	background-color: #1FA987;
+	color : white;
+	border-radius: 10px;
+	width: 160px;
+	padding: 20px;
+	position: absolute;
+
+   
+}
+
